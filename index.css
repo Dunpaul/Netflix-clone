@@ -1,0 +1,197 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-image: url("net2.jpg");
+    min-height: 100vh;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+header::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0,0,0, 0.6);
+}
+
+.lgn{
+    background-image: url("net2.jpg");
+    min-height: 100vh;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+
+}
+/*.lgn::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0,0,0, 0.6);
+}*/
+
+.upp,.upp2 {
+    z-index: 2;
+}
+
+.inp {
+    background-color: red;
+    margin-right: 4rem;
+}
+.inpw {
+    background-color: red;
+    margin-left: 2%;
+}
+
+.logoimg {
+    margin-left: 4rem;
+    height: 30px;
+}
+
+#heading  {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 9rem;
+
+}
+.cont1 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.enjoy {
+    background-color: black;
+    padding: 2rem;
+    margin: 7px auto 0px auto;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: x-large;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+
+a:hover{
+    color: white;
+}
+
+.qlist {
+    margin: 5px auto 0px auto;
+    padding: 1rem;
+    width: 75%;
+    border: 1px;
+}
+.qd {
+    margin: 5px auto 0px auto;
+    padding: 1rem;
+    width: 75%;
+    border: 5px;
+}
+.nfut {
+    margin: auto;
+    width: 50%;
+}
+
+.fa-plus {
+    font-weight:100;
+}
+
+
+.strm {
+    padding:5px;
+    background-color: black;
+    width: 60%;
+    height: 100px;
+    font-size: small;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+    
+}
+.wimg {
+    width: 15%;
+    height: 80px;
+    margin: 5px 10px 5px 5px;
+}
+
+footer{
+    color: gray;
+}
+
+footer a {
+    color: gray;
+    font-size: small;
+}
+
+
+.vida {
+    position:absolute;
+    top:20%;
+    right: 23%;
+}
+
+button,input{
+    border-style: none;
+}
+button:hover,input:hover button:active {
+    border-style: none;
+}
+
+.flgn{
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 80vh;
+    padding: 2rem;
+}
+.inpw {
+    margin-left: auto;
+    margin-right: auto;
+}
+.rem, .rem a {
+    color: gray;
+    font-size: 12px;
+}
